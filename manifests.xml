@@ -2,7 +2,7 @@
 <manifest>
     <remote name="Vendor" fetch="https://github.com/TheMuppets" />
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
-    <remove name="Kernel" fetch="https://github.com/MatrixhKa" />
+    <remote name="Kernel" fetch="https://github.com/MatrixhKa" />
 
     <!-- Device-Tree e Device-Common -->
     <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="Lineage" revision="lineage-22.2"  />
