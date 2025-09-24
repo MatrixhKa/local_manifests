@@ -13,6 +13,6 @@
     <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-22.2"  />
     
     <!-- Kernel e Dependências -->
-    <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225" remote="Kernel" revision="lineage-22.2"  />
+    <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225_vauxite" remote="Kernel" revision="susfs"  />
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.2"  />
 </manifest>
