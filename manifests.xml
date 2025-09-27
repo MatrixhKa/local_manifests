@@ -2,11 +2,11 @@
 <manifest>
     <remote name="Vendor" fetch="https://github.com/TheMuppets" />
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
-    <remote name="Kernel" fetch="https://github.com/MatrixhKa" />
+    <remote name="Me" fetch="https://github.com/MatrixhKa" />
 
     <!-- Device-Tree e Device-Common -->
     <project path="device/motorola/rhode" name="android_device_motorola_rhode" remote="Lineage" revision="lineage-22.2"  />
-    <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="Lineage" revision="lineage-22.2"  />
+    <project path="device/motorola/sm6225-common" name="android_device_motorola_sm6225-common" remote="Me" revision="lineage-22.2"  />
 
     <!-- Vendor e Vendor-Common -->
     <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="Vendor" revision="lineage-22.2"  />
