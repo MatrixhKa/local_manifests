@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="lindroid" fetch="https://github.com/Linux-on-droid" />
     <remote name="Vendor" fetch="https://github.com/TheMuppets" />
     <remote name="Lineage" fetch="https://github.com/LineageOS" />
     <remote name="Me" fetch="https://github.com/MatrixhKa" />
@@ -13,6 +14,11 @@
     <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="Vendor" revision="lineage-22.2"  />
     
     <!-- Kernel e Dependências -->
-    <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225_vauxite" remote="Me" revision="susfs"  />
+    <project path="kernel/motorola/sm6225" name="android_kernel_motorola_sm6225_vauxite" remote="Me" revision="lindroid"  />
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.2"  />
+
+    <!-- Lindroid Dependencies -->
+    <project path="vendor/lindroid" name="vendor_lindroid" remote="lindroid" revision="lindroid-22.1"  />
+    <project path="external/lxc"    name="external_lxc"    remote="lindroid" revision="lindroid-21" />
+    <project path="libhybris"       name="libhybris"       remote="lindroid" revision="lindroid-21" />
 </manifest>
