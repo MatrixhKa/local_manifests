@@ -18,7 +18,7 @@
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-22.2"  />
 
     <!-- Lindroid Dependencies -->
-    <project path="vendor/lindroid" name="vendor_lindroid" remote="lindroid" revision="lindroid-22.1"  />
+    <project path="vendor/lindroid" name="vendor_lindroid" remote="Me" revision="lindroid-22.1"  />
     <project path="external/lxc"    name="external_lxc"    remote="lindroid" revision="lindroid-21" />
     <project path="libhybris"       name="libhybris"       remote="lindroid" revision="lindroid-21" />
 </manifest>
